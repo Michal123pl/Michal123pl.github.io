@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/barbershop/static/css/main.0dd357ad.css",
+    "main.js": "/barbershop/static/js/main.89804fa5.js",
+    "static/media/barbergirl2.jpeg": "/barbershop/static/media/barbergirl2.d13fcbe905a8a1a539a3.jpeg",
+    "static/media/background_home.jpeg": "/barbershop/static/media/background_home.5d78dda50c9e07cde5ee.jpeg",
+    "static/media/Jaldi-Regular.ttf": "/barbershop/static/media/Jaldi-Regular.ab18ecfb99834d259bf6.ttf",
+    "static/media/Rosarivo-Regular.ttf": "/barbershop/static/media/Rosarivo-Regular.1b4b2204e1dc1599319a.ttf",
+    "index.html": "/barbershop/index.html",
+    "main.0dd357ad.css.map": "/barbershop/static/css/main.0dd357ad.css.map",
+    "main.89804fa5.js.map": "/barbershop/static/js/main.89804fa5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dd357ad.css",
+    "static/js/main.89804fa5.js"
+  ]
+}
