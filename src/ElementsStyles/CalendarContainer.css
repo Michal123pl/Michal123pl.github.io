@@ -1,0 +1,221 @@
+.calendarcontainer{
+	background: white;
+	border-radius: 20px 20px 0px 20px;
+	width: 90%;
+	color: black;
+	display: none;
+	flex-direction: column;
+	font-family: Jaldi;
+}
+.two {
+	background: white;
+	border-radius: 20px 20px 0px 20px;
+	width: 90%;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	font-family: Jaldi;
+}
+.barberchange {
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.5vw;
+	padding: 0 0 0 3%;
+	margin: 0;
+	height: 5vw;
+}
+.barberchange > button {
+	background-color: #927D4A;
+	margin: 0;
+	padding: 0 1vw;
+	font-size: 1.5vw;
+	width: 25%;
+	height: 100%;
+	border-radius: 0 20px 0 0;
+}
+.calendar > ul{
+	display: flex;
+	justify-content: space-between;
+	height: 10vw;
+	margin: 0;
+	padding: 0;
+}
+.calendar > ul > li {
+	border: 1px solid black;
+	width: 20%;
+}
+.calendarmain {
+	display: flex;
+	width: 100%;
+}
+.summary {
+	width: 100%;
+	font-size: 1vw;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.summary > div {
+	width: 100%;
+	text-align: center;
+}
+.summary > div:first-child {
+	border-bottom: 1px solid #927D4A;
+}
+.summary > div > h4 {
+	margin: 0;
+	font-size: 2.5vw;
+}
+.summary > div > form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.summary > div > form > input {
+	width: 100%;
+	margin: 0;
+	border-top: 1px solid #927D4A;
+	text-indent: 5%;
+}
+input[type=text]:focus, input[type=tel]:focus{
+	background: wheat;
+	outline: none;
+}
+.summary > div > form > input:last-child {
+	align-self: flex-end;
+}
+.summary > div > div {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 10%;
+	font-size: 1.5vw;
+}
+#summarubutton {
+	margin: 0;
+	padding: 0;
+	background-color: #927D4A;
+	vertical-align: bottom;
+	width: 100%;
+}
+#summarubutton:hover{
+	background: #514407;
+}
+.hours > table, .services > table {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-spacing: 0;
+}
+.hours {
+	width: 50%;
+}
+.godziny td:hover {
+	background: lightgrey;
+}
+.godziny td:active {
+	background: navy;
+}
+.godziny {
+	display: flex;
+	flex-direction: column;
+	border: 0;
+	height: 30vw;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.godziny > td {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	border-bottom: 1px solid #927D4A;
+	border-right: 1px solid #927D4A;
+}
+.services {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+	overflow-x: hidden;
+	height: 30vw;
+}
+.servicesrow {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	font-size: 2vw;
+	border: 0;
+	border-bottom: 1px solid #927D4A;
+	border-left: 1px solid #927D4A;
+}
+.servicescell {
+	display: flex;
+	flex-direction: column;
+	border-left: 1px solid #927D4A;
+	width: 20%;
+}
+.servicesrow:hover {
+	background: lightgrey;
+}
+.servicesrow:active {
+	background: navy;
+}
+.servicescell>td:first-child {
+	border-bottom: 1px solid #927D4A;
+}
+.servicescell > td {
+	margin: 0;
+	padding: 0;
+	font-size: 1vw;
+	border-bottom: 0;
+	border-right: 0;
+}
+@media only screen and (max-width: 400px) {
+	.hours > table, .services > table {
+		font-size: 3vw;
+	}
+
+	.godziny > td {
+		padding: 2vw 0;
+		letter-spacing: 0.5vw;
+	}
+
+	.servicesrow {
+		flex-direction: column;
+	}
+
+	.servicesrow > th {
+		text-align: left;
+		font-size: 3vw;
+	}
+
+	.servicescell {
+		width: 100%;
+		border: 0;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.servicescell > td{
+		font-size: 1.5vw;
+	}
+	.servicescell>td:first-child {
+		border: 0;
+	}
+
+	.calendarmain {
+		display:  grid;
+		grid-template-columns: 2fr 2fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.hours {
+		width: 100%;
+	}
+	.summary {
+		grid-column: 1/ span 2;
+		grid-row: 2;
+		width: 100%;
+	}
+}
+
+

@@ -1,0 +1,29 @@
+.Navbar{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background: rgba(0, 0, 0, 0.25);
+}
+
+
+nav {
+	display: flex;
+}
+
+a:hover {
+	transition: 0.4s;
+	background: rgba(200, 200, 200, 0.2);
+	box-shadow: 2px 2px 6px black;
+	cursor: pointer;
+}
+
+a {	
+	align-self: center;
+	font-size: 1vw;
+	padding: 2vw 4vw;
+	text-decoration: none;
+}
+
+.Navlogo {
+	margin: 0 2vw;
+}

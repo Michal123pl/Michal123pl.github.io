@@ -1,0 +1,85 @@
+@font-face {
+font-family: "Rosarivo";
+src: local("Rosarivo"),
+ url("../Fonts/Rosarivo-Regular.ttf") format("truetype");
+font-weight: bold;
+}
+@font-face {
+font-family: "Jaldi";
+src: local("Jaldi"),
+ url("../Fonts/Jaldi-Regular.ttf") format("truetype");
+font-weight: bold;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 1); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(30, 30, 30, 1); 
+}
+
+@media only screen and (max-width: 400px) {
+  /* width */
+::-webkit-scrollbar {
+  width: 0;
+  }
+
+}
+
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Rosarivo;
+  background:  black;
+  color: white;
+  min-width: 400px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul, ol {
+  list-style: none;
+  font-family: Jaldi;
+  font-size: 1.3vw;
+}
+
+h1, h2{
+  color:  #A49A40;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+h2 {
+  font-size: 4vw;
+}
+
+h3 {
+  font-size: 4vw;
+}

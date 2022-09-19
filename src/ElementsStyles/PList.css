@@ -1,0 +1,53 @@
+.List {
+	width: 100%;
+}
+
+table {
+	font-size: 1.5vw;
+	width: 85%;
+	padding: 6vw 1vw 10vw 1vw ;
+	margin: auto;
+
+}
+
+table > tr {
+	border: 10px solid white;
+}
+
+/*Do poprawy formatowanie cennika*/
+@media only screen and (max-width: 400px) {
+	table > tr {
+		width: 100%;
+		display: flex;
+		border:  0;
+	}
+	td {
+		width: 100%;
+	}
+	tr:first-child {
+		flex-grow: 4;
+	}
+	td:nth-child(2) tr:nth-child(3) {
+		
+		flex-direction: column;
+	}
+}
+
+
+td{
+	border-bottom: 1px solid white;
+	padding: 1.5vw;
+}
+
+td:nth-last-child(3){
+	margin: 2vw;
+}
+
+td:nth-last-child(2), td:nth-last-child(1){
+	margin: 1vw;
+	text-align: center;
+}
+td:nth-last-child(3), td:nth-last-child(2){
+	border-right: 1px solid white;
+}
+

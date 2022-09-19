@@ -1,0 +1,10 @@
+.Home {
+	background-image: url('../Images/background_home.jpeg');
+	background-repeat: no-repeat;
+  	background-size: 100%;
+  	min-height: 70vw;
+  	background-position: 50% 50%;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+}

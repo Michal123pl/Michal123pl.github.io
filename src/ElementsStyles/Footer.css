@@ -1,0 +1,44 @@
+.footer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 18vw;
+	background: #171717
+}
+
+.footer > section {
+	width: 40%;
+	margin: 2% auto;
+	padding: 0;
+	align-content: center;
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	font-size: 1vw;
+}
+
+.links > div{
+	margin: 2%;
+}
+
+.links > div > a {
+	text-decoration: none;
+	color: #A6A6A5;
+	margin: 0;
+	padding: 0;
+}
+.links > div > a:hover{
+	background: #171717;
+}
+
+.social {
+	text-align: right;
+}
+
+.social > img{
+	margin: 0 2%;
+	width: 4vw;
+}

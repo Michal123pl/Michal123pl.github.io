@@ -1,0 +1,57 @@
+.contactinfo {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	width: 80%;
+	margin: auto;
+	font-size: 1.5vw;
+	letter-spacing: 0.25vw;
+
+}
+
+#infosectionfirst {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	align-items: stretch;
+}
+
+#infosectionsecond {
+	display: flex;
+	justify-content: space-evenly;
+	width: 40%;
+}
+
+#infosectionsecond > div > p {
+	width: 15vw;
+}
+
+#gmap_canvas{
+	padding-top: 2vw;
+	width: 30vw;
+	height: 24vw;
+
+}
+
+.form {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+
+}
+
+input {
+	height: 4vw;
+	width: 48%;
+	border: 0;
+	padding: 0;
+	margin: 1%;
+	font-size: 1.5vw;
+}
+
+input#desc {
+	width: 96%;
+	padding: 1%;
+	
+}
