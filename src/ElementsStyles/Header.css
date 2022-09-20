@@ -3,5 +3,11 @@
 	letter-spacing: 1.2vw;
 	text-align: center;
 	line-height: 10vw;
+}
 
+@media only screen and (max-width: 400px) {
+	.Header > h1 {
+	    line-height: 20vw;
+	    margin-top: 50vw;
+	}
 }

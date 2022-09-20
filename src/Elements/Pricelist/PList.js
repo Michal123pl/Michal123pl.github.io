@@ -7,46 +7,62 @@ class PList extends React.Component {
 	render() {
 		return(
 				<article className='List'>
-					<table>
-					  <tr>
+					<table className='PricelistTable'>
+					  <tr className='PricelistTableRow'>
 					    <td>Strzyżenie - włosy krótkie</td>
-					    <td>70 zł</td>
-					    <td>30 min</td>
+					    <div className='innertable'>
+						    <td>70 zł</td>
+						    <td>30 min</td>
+						</div>
 					  </tr>
-					  <tr>
+					  <tr className='PricelistTableRow'>
 					    <td>Strzyżenie - włosy długie</td>
-					    <td>80 zł</td>
-					    <td>40 min</td>
+					    <div className="innertable">
+						    <td>80 zł</td>
+						    <td>40 min</td>
+					    </div>
 					  </tr>
-					  <tr>
+					  <tr className='PricelistTableRow'>
 					    <td>Skracanie brody</td>
-					    <td>70 zł</td>
-					    <td>30 min</td>
+					    <div className="innertable">
+						    <td>70 zł</td>
+						    <td>30 min</td>
+						</div>
 					  </tr>
-					  <tr>
+					  <tr className='PricelistTableRow'>
 					    <td>Farbowanie włosów</td>
-					    <td>120 zł</td>
-					    <td>120 min</td>
+					    <div className="innertable">
+						    <td>120 zł</td>
+						    <td>120 min</td>
+						</div>
 					  </tr>
-					  <tr>
+					  <tr className='PricelistTableRow'>
 					    <td>Repigmentacja</td>
-					    <td>90 zł</td>
-					    <td>45 min</td>
+					    <div className="innertable">
+						    <td>90 zł</td>
+						    <td>45 min</td>
+						</div>
 					  </tr>
-					  <tr>
+					  <tr className='PricelistTableRow'>
 					    <td>Modelowanie brody</td>
-					    <td>80 zł</td>
-					    <td>35 min</td>
+					    <div className="innertable">
+						    <td>80 zł</td>
+						    <td>35 min</td>
+						</div>
 					  </tr>
-					  <tr>
+					  <tr className='PricelistTableRow'>
 					    <td>Kuracja regenerująca</td>
-					    <td>110 zł</td>
-					    <td>30 min</td>
+					    <div className="innertable">
+						    <td>110 zł</td>
+						    <td>30 min</td>
+						</div>
 					  </tr>
-					  <tr>
+					  <tr className='PricelistTableRow'>
 					    <td>Pakiet Full</td>
-					    <td>350 zł</td>
-					    <td>150 min</td>
+					    <div className="innertable">
+						    <td>350 zł</td>
+						    <td>150 min</td>
+						</div>
 					  </tr>
 					</table>
 				</article>

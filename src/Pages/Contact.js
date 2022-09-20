@@ -19,12 +19,12 @@ class Contact extends React.Component {
 	render() {
 		const showWorkerBigContainer = (event) => {
 			const WorkerBigShow = 'WorkerBigShow';
-			console.log('k')
+
 			return(this.setState({classname: WorkerBigShow}));
 	}
 	const hideWorkerBigContainer = (event) => {
 			const WorkerBigHide = 'WorkerBigHide';
-			console.log('k')
+
 			return(this.setState({classname: WorkerBigHide}));
 	}
 		return(

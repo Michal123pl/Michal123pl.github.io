@@ -22,7 +22,7 @@ class Appointment extends React.Component {
 		return(
 			<section className='appointment'>
 				<HeaderAppointment />
-				<div>
+				<div className="appointmentbuttons">
 					<button type="button" onClick={showCalendarContainer}>U nas ze zniżką!</button>
 					<button type="button" >Booksy</button>
 				</div>

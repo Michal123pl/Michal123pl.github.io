@@ -26,4 +26,11 @@ a {
 
 .Navlogo {
 	margin: 0 2vw;
+	width:  5vw;
+	height: 5vw;
+}
+
+.Navlogo > img {
+	width:  5vw;
+	height: 5vw;
 }

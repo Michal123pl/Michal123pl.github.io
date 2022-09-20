@@ -9,7 +9,7 @@ class Navbar extends React.Component {
 		return(
 			<div className="Navbar">
 				<div className="Navlogo">
-					<img width="150" heigth="150" src={require("../../Images/logomin.png")}/>
+					<img src={require("../../Images/logomin.png")}/>
 				</div>
 				<nav>
 					<Link activeClass="active" smooth spy to="appointment">

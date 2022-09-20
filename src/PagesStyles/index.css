@@ -33,13 +33,7 @@ font-weight: bold;
   background: rgba(30, 30, 30, 1); 
 }
 
-@media only screen and (max-width: 400px) {
-  /* width */
-::-webkit-scrollbar {
-  width: 0;
-  }
 
-}
 
 
 
@@ -55,6 +49,7 @@ body {
   background:  black;
   color: white;
   min-width: 400px;
+  font-size: 2vw;
 }
 
 code {
@@ -82,4 +77,16 @@ h2 {
 
 h3 {
   font-size: 4vw;
+}
+
+@media only screen and (max-width: 400px) {
+  /* width */
+::-webkit-scrollbar {
+  width: 0;
+  }
+
+  h1 {
+    font-size: 10vw;
+  }
+
 }
