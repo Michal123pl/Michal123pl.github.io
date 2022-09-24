@@ -6,7 +6,6 @@
 	margin: auto;
 	font-size: 1.5vw;
 	letter-spacing: 0.25vw;
-
 }
 
 #infosectionfirst {
@@ -30,7 +29,6 @@
 	padding-top: 2vw;
 	width: 30vw;
 	height: 24vw;
-
 }
 
 .form {
@@ -38,7 +36,6 @@
 	display: flex;
 	justify-content: center;
 	flex-flow: wrap;
-
 }
 
 input {
@@ -53,5 +50,42 @@ input {
 input#desc {
 	width: 96%;
 	padding: 1%;
-	
+}
+
+
+@media only screen and (max-width: 400px) {
+	.contactinfo {
+		flex-direction: column;
+	}
+
+	#infosectionfirst {
+		flex-direction: row;
+		width: 100%;
+	}
+
+	#infosectionfirst > div:first-child {
+		width: 50%;
+	}
+
+	.form > input {
+		height: 8vw;
+		font-size: 2vw;
+	}
+
+	#infosectionsecond {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	#infosectionsecond > div:first-child {
+		display: flex;
+    	justify-content: space-around;
+    	padding-top: 8vw;
+	}
+
+	#gmap_canvas{
+		padding-top: 4vw;
+		width: 100%;
+		height: 40vw;
+	}
 }

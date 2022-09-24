@@ -84,6 +84,9 @@ h3 {
 ::-webkit-scrollbar {
   width: 0;
   }
+  body {
+    overflow-x: hidden;
+  }
 
   h1 {
     font-size: 10vw;

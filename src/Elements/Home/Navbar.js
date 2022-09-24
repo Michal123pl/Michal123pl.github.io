@@ -6,6 +6,8 @@ import { Link } from 'react-scroll';
 
 class Navbar extends React.Component {
 	render() {
+		
+
 		return(
 			<div className="Navbar">
 				<div className="Navlogo">

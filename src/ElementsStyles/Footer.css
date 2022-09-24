@@ -42,3 +42,22 @@
 	margin: 0 2%;
 	width: 4vw;
 }
+
+@media only screen and (max-width: 400px) {
+	.footer {
+		height: 34vw;
+	}
+
+	.links > div > a {
+		font-size: 3vw;
+	}
+
+	.social {
+		display: flex;
+    	justify-content: space-around;
+	}
+
+	.social > img {
+		width: 8vw;
+	}
+}

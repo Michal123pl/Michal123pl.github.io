@@ -18,7 +18,7 @@ class Appointment extends React.Component {
 		const showCalendarContainer = (event) => {
 			const sec = 'two';
 			return(this.setState({classname: sec}));
-	}
+		}
 		return(
 			<section className='appointment'>
 				<HeaderAppointment />

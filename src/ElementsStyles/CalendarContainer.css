@@ -1,11 +1,5 @@
 .calendarcontainer{
-	background: white;
-	border-radius: 20px 20px 0px 20px;
-	width: 90%;
-	color: black;
 	display: none;
-	flex-direction: column;
-	font-family: Jaldi;
 }
 .two {
 	background: white;
@@ -175,13 +169,40 @@ input[type=text]:focus, input[type=tel]:focus{
 	border-right: 0;
 }
 @media only screen and (max-width: 400px) {
+	.barberchange, .barberchange > button {
+		font-size: 3.5vw;
+		border-radius: 0;
+	}
+
+	.barberchange > p {
+		margin: 0;
+	}
+
+	.calendar > ul {
+		height: 15vw;
+	}
+	.calendar > ul > li {
+		font-size: 2.5vw;
+	}
+
 	.hours > table, .services > table {
 		font-size: 3vw;
 	}
 
+	.two {
+		width: 100%;
+		border-radius: 0;
+	}
+	.godziny {
+		height: 50vw;
+	}
 	.godziny > td {
 		padding: 2vw 0;
 		letter-spacing: 0.5vw;
+	}
+
+	.services {
+		height: 50vw;
 	}
 
 	.servicesrow {
@@ -201,7 +222,7 @@ input[type=text]:focus, input[type=tel]:focus{
 	}
 
 	.servicescell > td{
-		font-size: 1.5vw;
+		font-size: 2.5vw;
 	}
 	.servicescell>td:first-child {
 		border: 0;
@@ -214,12 +235,27 @@ input[type=text]:focus, input[type=tel]:focus{
 	}
 	.hours {
 		width: 100%;
+		height: 50vw;
 	}
+
 	.summary {
 		grid-column: 1/ span 2;
 		grid-row: 2;
 		width: 100%;
+		font-size: 2vw;
 	}
+
+	.summary > div > h4 {
+		font-size: 4vw;
+	}
+	.summary > div > div > p {
+		font-size: 2.5vw;
+	}
+
+	.summary > div > form > input {
+		font-size: 2.5vw;
+	}
+
 }
 
 
