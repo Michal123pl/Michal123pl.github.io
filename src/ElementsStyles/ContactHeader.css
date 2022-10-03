@@ -27,6 +27,20 @@
 .workerbutton:hover{
 	background-color: rgba(0, 0, 0, 0);
 	box-shadow: 0 0 0;
-
 }
+
+@media only screen and (max-width: 400px) {
+	.crew {
+		flex-direction: column;
+	}
+
+	.crew > div {
+		width: 100%;
+	}
+
+	.contactheader > h3 {
+		font-size: 8vw;
+	}
+}
+
 

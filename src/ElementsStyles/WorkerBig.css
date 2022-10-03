@@ -53,3 +53,33 @@
 	border-bottom: 1vw solid white;
 
 }
+
+@media only screen and (max-width: 400px) {
+	.WorkerBigShow{
+		flex-direction: column-reverse;
+	}
+
+	.WorkerBio{
+		margin: auto;
+		width: 80%;
+		font-size: 4.5vw;
+		line-height: 6vw;
+	}
+
+	.WorkerBigImg {
+		margin: 7vw auto 0 auto;
+		width: 70vw;
+		height: 70vw;
+	}
+
+
+	.exitbutton1 {
+		width: 15vw;
+		border-bottom: 2vw solid white;
+	}
+
+	.exitbutton2 {
+		width: 15vw;
+		border-bottom: 2vw solid white;
+	}
+}

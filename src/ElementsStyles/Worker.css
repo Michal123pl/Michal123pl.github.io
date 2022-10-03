@@ -38,3 +38,25 @@
 	text-align: center;
 
 }
+
+@media only screen and (max-width: 400px) {
+	.worker {
+		width: 100%;
+		justify-content: space-around;
+	}
+
+	.worker > p {
+		width: 50%;
+		font-size: 4vw;
+	}
+
+	.workername {
+		width: 50vw;
+		height: 50vw;
+	}
+
+	.workerimg {
+		width: 50vw;
+		height: 50vw;
+	}
+}
