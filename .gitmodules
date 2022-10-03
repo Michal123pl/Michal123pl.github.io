@@ -1,4 +1,3 @@
-.gitmodules
 	[submodule "Michal123pl.github.io"]
 		path = Michal123pl.github.io
 		url = https://github.com/Michal123pl/barbershop.git
