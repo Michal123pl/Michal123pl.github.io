@@ -5,16 +5,15 @@ import CalendarContainer from '../Elements/Appointment/CalendarContainer.js';
 import '../PagesStyles/Appointment.css';
 import { useState } from 'react';
 
-class Appointment extends React.Component {
-	
+class Appointment extends React.Component {	
 	constructor(props) {
 		super(props)
 		this.state = {
 			classname: 'calendarcontainer'
 		}
 	}
-
 	render() {
+		//Shows container with form to making an appointment.
 		const showCalendarContainer = (event) => {
 			const sec = 'two';
 			return(this.setState({classname: sec}));

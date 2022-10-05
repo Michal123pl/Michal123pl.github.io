@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../../ElementsStyles/Footer.css';
 
+//Footer of site with some links and social media icon with links
 
 class Footer extends React.Component {
 	render() {

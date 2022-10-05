@@ -4,8 +4,9 @@ import '../../ElementsStyles/ContactHeader.css';
 import Worker from './Worker.js';
 import {useState} from 'react';
 
-const ContactHeader = ({showWorkerBigContainer}) => {
+//Bar with worker mini image and short description
 
+const ContactHeader = ({showWorkerBigContainer}) => {
 
 		return(
 			<div className='contactheader'>

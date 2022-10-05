@@ -2,6 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../../ElementsStyles/CalendarContainer.css';
 
+//Container with form to making an appointment. 
+//For now it's hidden becouse it's needed to connect database and API wich will handle visits
+//It's partially adapted to mobile devices
+//version 0.1
+
 class CalendarContainer extends React.Component {
 	constructor(props) {
     	super(props);

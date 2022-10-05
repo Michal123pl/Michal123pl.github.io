@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../../ElementsStyles/Worker.css';
 
-
+//Single worker component containing mini image and description
 
 class Worker extends React.Component {
 	render() {

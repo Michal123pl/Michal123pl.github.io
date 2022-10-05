@@ -17,16 +17,19 @@ class Contact extends React.Component {
 	}
 
 	render() {
+
+		//Shows conatiner with bigger photo and more text about specyfic worker
 		const showWorkerBigContainer = (event) => {
 			const WorkerBigShow = 'WorkerBigShow';
 
 			return(this.setState({classname: WorkerBigShow}));
-	}
-	const hideWorkerBigContainer = (event) => {
+		}
+		//Hides conatiner with bigger photo and more text about specyfic worker
+		const hideWorkerBigContainer = (event) => {
 			const WorkerBigHide = 'WorkerBigHide';
 
 			return(this.setState({classname: WorkerBigHide}));
-	}
+		}
 		return(
 			<div className='contact'>
 				<ContactHeader showWorkerBigContainer={showWorkerBigContainer}/>

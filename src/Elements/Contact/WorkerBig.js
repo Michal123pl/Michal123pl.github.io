@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../../ElementsStyles/WorkerBig.css';
 
+//Container with big image of specific worker and wider description.
+//In future it'll take data from database.
+//It's needed to add and connect with specific worker
+
 const WorkerBig = ({hideWorkerBigContainer, classname}) => {
 		return(
 			<div className={classname}>

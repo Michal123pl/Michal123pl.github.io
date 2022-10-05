@@ -1,20 +1,20 @@
 @font-face {
-font-family: "Rosarivo";
-src: local("Rosarivo"),
- url("../Fonts/Rosarivo-Regular.ttf") format("truetype");
-font-weight: bold;
-}
-@font-face {
 font-family: "Jaldi";
 src: local("Jaldi"),
  url("../Fonts/Jaldi-Regular.ttf") format("truetype");
 font-weight: bold;
 }
 
+@font-face {
+font-family: "Andada";
+src: local("Andada"),
+ url("../Fonts/Andada-Regular.otf") format("truetype");
+font-weight: bold;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 8px;
-  
 }
 
 /* Track */
@@ -45,7 +45,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: Rosarivo;
+  font-family: Andada;
   background:  black;
   color: white;
   min-width: 400px;
@@ -84,12 +84,7 @@ h3 {
 ::-webkit-scrollbar {
   width: 0;
   }
-  body {
-    overflow-x: hidden;
-  }
-
   h1 {
     font-size: 10vw;
   }
-
 }
