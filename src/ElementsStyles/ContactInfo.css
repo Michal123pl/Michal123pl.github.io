@@ -13,12 +13,14 @@
 	flex-direction: column;
 	width: 40%;
 	align-items: stretch;
+	font-size: 1.5vw;
 }
 
 #infosectionsecond {
 	display: flex;
 	justify-content: space-evenly;
 	width: 40%;
+	font-size: 1.5vw;
 }
 
 #infosectionsecond > div > p {
@@ -59,12 +61,12 @@ input#desc {
 	}
 
 	#infosectionfirst {
-		flex-direction: row;
 		width: 100%;
 	}
 
 	#infosectionfirst > div:first-child {
-		width: 50%;
+		letter-spacing: 1vw;
+		font-size: 4.5vw;
 	}
 
 	.form > input {
@@ -72,15 +74,27 @@ input#desc {
 		font-size: 2vw;
 	}
 
+	.form > input:last-child {
+		width: 100%;
+	}
+
 	#infosectionsecond {
 		width: 100%;
 		flex-direction: column;
+		font-size: 4.5vw;
 	}
 
 	#infosectionsecond > div:first-child {
 		display: flex;
-    	justify-content: space-around;
+		flex-wrap: wrap;
+    	justify-content: space-evenly;
     	padding-top: 8vw;
+	}
+
+	#infosectionsecond > div:first-child > p{
+		padding: 2vw 5vw;
+		margin: 0;
+		width: unset;
 	}
 
 	#gmap_canvas{

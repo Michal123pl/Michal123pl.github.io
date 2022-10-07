@@ -34,3 +34,80 @@ a {
 	width:  5vw;
 	height: 5vw;
 }
+
+.burgerContainer {
+	position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.burger {
+	border-bottom: 1.5vw solid white;
+    width: 6vw;
+    margin: 1vw;
+}
+
+
+@media only screen and (max-width:  400px) {
+	.Navbar {
+		background-color: rgba(0, 0, 0, 0);
+		justify-content: flex-end;
+	}
+
+	.Navlogo {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.topBun {
+		transform: rotate(45deg);
+		margin: 0;
+		position: absolute;
+		top: 10vw;
+		width: 10vw;
+	}
+
+	.meat {
+		opacity: 0;
+	}
+
+	.bottomBun {
+		transform: rotate(-45deg);
+		margin: 0;
+		position: absolute;
+		top: 10vw;
+		width: 10vw;
+	}
+
+	.burgerContainer {
+		display: inline-block;
+	}
+
+	.navShow {
+		opacity: 100%;
+	}
+
+	.navHide{
+		opacity: 0;
+	}
+
+	nav{
+		padding-top: 15vw;
+		flex-direction: column;
+		width: 60vw;
+		background: rgba(0, 0, 0, 0.25);
+	}
+
+	a {
+		font-size: 5vw;
+		padding: 6vw;
+	}
+
+	a:hover {
+		transition: 0.4s;
+		background: none;
+		box-shadow: none;
+	}
+}

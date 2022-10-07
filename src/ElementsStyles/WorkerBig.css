@@ -61,9 +61,9 @@
 
 	.WorkerBio{
 		margin: auto;
-		width: 80%;
+		width: 90%;
 		font-size: 4.5vw;
-		line-height: 6vw;
+		line-height: 6.5vw;
 	}
 
 	.WorkerBigImg {
@@ -76,10 +76,14 @@
 	.exitbutton1 {
 		width: 15vw;
 		border-bottom: 2vw solid white;
+		top:  3%;
+		right: 4%;
 	}
 
 	.exitbutton2 {
 		width: 15vw;
 		border-bottom: 2vw solid white;
+		top:  3%;
+		right: 4%;
 	}
 }
