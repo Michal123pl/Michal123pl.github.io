@@ -35,16 +35,34 @@ a {
 	height: 5vw;
 }
 
-.burgerContainer {
+.xIconShown {
 	position: absolute;
     top: 0;
-    right: 0;
+    right: 1vw;
+    display: none;
+    width: 15vw;
+}
+
+.xIconHidden {
+		display: none;
+}
+
+.xBoth {
+	border-bottom: 1.5vw solid white;
+    width: 6vw;
+    margin: 1vw;
+}
+
+.burgerContainerShown {
+	position: absolute;
+    top: 6.5vw;
+    right: 5vw;
     display: none;
 }
 
 .burger {
 	border-bottom: 1.5vw solid white;
-    width: 6vw;
+    width: 10vw;
     margin: 1vw;
 }
 
@@ -61,36 +79,42 @@ a {
 		left: 0;
 	}
 
-	.topBun {
+	/*Menu icon on mobile devices*/
+	/*"x" - is icon for closing menu*/
+	/*"burger" - is icon for opening menu*/
+	.xFirst {
 		transform: rotate(45deg);
 		margin: 0;
 		position: absolute;
 		top: 10vw;
 		width: 10vw;
 	}
-
-	.meat {
-		opacity: 0;
-	}
-
-	.bottomBun {
+	.xSecond {
 		transform: rotate(-45deg);
 		margin: 0;
 		position: absolute;
 		top: 10vw;
 		width: 10vw;
 	}
-
-	.burgerContainer {
+	.xIconShown {
 		display: inline-block;
 	}
+	.xIconHidden {
+		display: none;
+	}
+	.burgerContainerShown {
+		display: inline-block;
+	}
+	.burgerContainerHidden{
+		display: none;
+	}
+	/**/
 
 	.navShow {
-		opacity: 100%;
+		visibility: visible;
 	}
-
 	.navHide{
-		opacity: 0;
+		visibility: hidden;
 	}
 
 	nav{
