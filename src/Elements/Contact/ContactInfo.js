@@ -14,9 +14,7 @@ class ContactInfo extends React.Component {
 						<p> Masz pomysł na współpracę? </p>
 						<p> Odezwij się! </p>
 					</div>
-					<div>
-						<ContactForm />
-					</div>
+					
 				</section>
 				<section id='infosectionsecond'>
 					<div>
@@ -28,7 +26,8 @@ class ContactInfo extends React.Component {
 					<div>
 						<iframe  id="gmap_canvas" src="https://maps.google.com/maps?q=wroc%C5%82aw%20kabaczkowa%207&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 					</div>
-				</section>		
+				</section>	
+				<ContactForm />	
 			</div>
 	)}
 }

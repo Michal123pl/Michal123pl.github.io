@@ -34,9 +34,8 @@ const ContactForm = () => {
 
 	return (
 		<form id='booking' onSubmit={sendEmail}>
-
-			<div controlId="name">
-	          <label>Imię</label>
+			<label name="title" id="bookingTitle">Napisz do nas!</label>
+			<div id="name">
 	          <input 
 	            type="text"
 	            name="name"
@@ -46,8 +45,7 @@ const ContactForm = () => {
 	          />
 	        </div>
 
-	        <div controlId="phone">
-	          <label>Numer telefonu</label>
+	        <div id="phone">
 	          <input 
 	            type="tel"
 	            name="phone"
@@ -57,8 +55,7 @@ const ContactForm = () => {
 	          />
 	        </div>
 
-	        <div controlId="mail">
-	          <label>E-mail</label>
+	        <div id="mail">
 	          <input 
 	            type="mail"
 	            name="email"
@@ -68,8 +65,7 @@ const ContactForm = () => {
 	          />
 	        </div>
 
-	        <div controlId="subject">
-	          <label>Tytuł</label>
+	        <div id="subject">
 	          <input 
 	            type="subjcet"
 	            name="text"
@@ -79,8 +75,7 @@ const ContactForm = () => {
 	          />
 	        </div>
 
-	        <div controlId="message">
-	          <label>Wiadomość</label>
+	        <div id="message">
 	          <textarea
 	          	id="bookingTextArea"
 	          	form="booking"
@@ -90,6 +85,10 @@ const ContactForm = () => {
 	            placeholder="Wiadomość"
 	            onChange={onInputChange}
 	          />
+	        </div>
+
+	        <div>
+	        	<button type="submit">Wyślij</button>
 	        </div>
 		</form>
 	);
