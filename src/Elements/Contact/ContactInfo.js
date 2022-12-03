@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../../ElementsStyles/ContactInfo.css';
+import ContactForm from './ContactForm.js';
 
 class ContactInfo extends React.Component {
 	render() {
@@ -14,12 +15,7 @@ class ContactInfo extends React.Component {
 						<p> Odezwij się! </p>
 					</div>
 					<div>
-						<form className='form'>
-							<input type="text" placeholder="Podaj swoje imię"/>
-							<input type="tel" placeholder="Podaj numer telefonu" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/>
-							<input type="text" placeholder="Co Cię gryzie?" id='desc'/>
-							<input type="submit" value="Wyślij"/>
-						</form>
+						<ContactForm />
 					</div>
 				</section>
 				<section id='infosectionsecond'>
