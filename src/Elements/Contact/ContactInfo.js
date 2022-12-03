@@ -21,7 +21,6 @@ class ContactInfo extends React.Component {
 							<input type="submit" value="Wyślij"/>
 						</form>
 					</div>
-					
 				</section>
 				<section id='infosectionsecond'>
 					<div>

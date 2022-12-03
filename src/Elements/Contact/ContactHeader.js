@@ -9,7 +9,7 @@ import {useState} from 'react';
 const ContactHeader = ({showWorkerBigContainer}) => {
 
 		return(
-			<div className='contactheader'>
+			<header className='contactheader'>
 				<h3>Nasza załoga</h3>
 				<div className='crew' >
 					<div onClick={showWorkerBigContainer}>
@@ -22,7 +22,7 @@ const ContactHeader = ({showWorkerBigContainer}) => {
 						<Worker />
 					</div>
 				</div>
-			</div>
+			</header>
 	)}
 
 

@@ -6,9 +6,9 @@ import '../../ElementsStyles/HeaderAppointment.css';
 class HeaderAppointment extends React.Component {
 	render() {
 		return(
-				<div className='headerappointment'>
+				<header className='headerappointment'>
 					<h2>Umów się na wizytę</h2>
-				</div>
+				</header>
 			
 
 	)}

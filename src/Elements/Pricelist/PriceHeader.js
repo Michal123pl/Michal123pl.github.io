@@ -6,9 +6,9 @@ import '../../ElementsStyles/PriceHeader.css';
 class PriceHeader extends React.Component {
 	render() {
 		return(
-			<div >
+			<header >
 				<h2 className="PriceHeader" >Cennik</h2>
-			</div>
+			</header>
 			
 
 	)}

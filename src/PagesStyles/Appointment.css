@@ -23,9 +23,21 @@ button:hover {
 	background: #514407;
 }
 
+.appointmentbuttons {
+	display: none; /*To change (delete) when making an appointment process will be ready*/
+}
+
+.appointmentcontactinfo{
+	/*display:  none - when making an appointment process will be ready*/
+}
+
+.reachme {	
+	margin: 5vw auto;
+	}
+
 @media only screen and (max-width: 400px) {
 	.appointmentbuttons {
-	    display: flex;
+	    display: none; /*To change (display:  flex) when making an appointment process will be ready*/
 	    flex-direction: column;
 	    width: 100%;
 	}
@@ -35,5 +47,10 @@ button:hover {
 	    height: 20vw;
 	    margin: 3vw 0;
 	    font-size: 8vw;
+	}
+
+	.reachme {
+	font-size: 5vw;
+	margin: 15vw auto;
 	}
 }

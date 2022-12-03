@@ -21,6 +21,12 @@ class Appointment extends React.Component {
 		return(
 			<section className='appointment'>
 				<HeaderAppointment />
+
+				<div className='appointmentcontactinfo'>
+					<p className='reachme'>Zadzwoń: 123-456-789</p>
+					<p className='reachme'>Wyślij mail: umowwizyte@kamb.pl</p>
+					<p className='reachme'>Ablo użyj formularza na dole strony!</p>
+				</div>
 				<div className="appointmentbuttons">
 					<button type="button" onClick={showCalendarContainer}>U nas ze zniżką!</button>
 					<button type="button" >Booksy</button>

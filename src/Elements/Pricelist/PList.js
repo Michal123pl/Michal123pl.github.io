@@ -6,7 +6,7 @@ import '../../ElementsStyles/PList.css';
 class PList extends React.Component {
 	render() {
 		return(
-				<article className='List'>
+				<section className='List'>
 					<table className='PricelistTable'>
 					  <tr className='PricelistTableRow'>
 					    <td>Strzyżenie - włosy krótkie</td>
@@ -65,7 +65,7 @@ class PList extends React.Component {
 						</div>
 					  </tr>
 					</table>
-				</article>
+				</section>
 
 	)}
 

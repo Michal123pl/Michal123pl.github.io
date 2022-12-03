@@ -6,9 +6,9 @@ import '../../ElementsStyles/Header.css';
 class Header extends React.Component {
 	render() {
 		return(
-			<div className="Header">
+			<header className="Header">
 				<h1>Pozwól sobie <br/> dobrze wyglądać</h1>
-			</div>
+			</header>
 			
 
 	)}

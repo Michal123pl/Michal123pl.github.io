@@ -7,7 +7,7 @@ import '../../ElementsStyles/Footer.css';
 class Footer extends React.Component {
 	render() {
 		return(
-			<div className='footer'>
+			<footer className='footer'>
 				<section className='links'>
 					<div><a href='#'>Kariera</a></div>
 					<div><a href='#'>Cennik</a></div>
@@ -22,7 +22,7 @@ class Footer extends React.Component {
 					  <img src={require("../../Images/linkedinic.png")}/>
 					  
 				</section>
-			</div>
+			</footer>
 		
 	)}
 }

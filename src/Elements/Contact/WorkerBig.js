@@ -8,7 +8,7 @@ import '../../ElementsStyles/WorkerBig.css';
 
 const WorkerBig = ({hideWorkerBigContainer, classname}) => {
 		return(
-			<div className={classname}>
+			<section className={classname}>
 			<div className='exitbutton' onClick={hideWorkerBigContainer}>
 				<div className='exitbutton1'></div>
 				<div className='exitbutton2'></div>
@@ -23,7 +23,7 @@ const WorkerBig = ({hideWorkerBigContainer, classname}) => {
 				</article>
 
 				<img className='WorkerBigImg' height="400" width="400" src={require("../../Images/barbergirl2.jpeg")} />
-			</div>
+			</section>
 		)}
 	
 

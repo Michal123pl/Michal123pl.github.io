@@ -13,12 +13,12 @@ class CalendarContainer extends React.Component {
   	}
 	render() {
 		return(
-				<div className={this.props.classname}>
-						<section className='barberchange'>
+				<section className={this.props.classname}>
+						<div className='barberchange'>
 							<p>Wybrany barber: 'imie'</p>
 							<button>Zmień barbera</button>
-						</section>
-						<section className='calendar'>
+						</div>
+						<div className='calendar'>
 							<ul>
 								<li>PN</li>
 								<li>WT</li>
@@ -28,8 +28,8 @@ class CalendarContainer extends React.Component {
 								<li>SB</li>
 								<li>ND</li>
 							</ul>
-						</section>
-						<section className='calendarmain'>
+						</div>
+						<div className='calendarmain'>
 							<div className='hours'>
 								<table>
 									<tr className='godziny'>
@@ -147,8 +147,8 @@ class CalendarContainer extends React.Component {
 
 								</table>
 							</div>
-						</section>
-				</div>
+						</div>
+				</section>
 	)}}
 
 export default CalendarContainer;
