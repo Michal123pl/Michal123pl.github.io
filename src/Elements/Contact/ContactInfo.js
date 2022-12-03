@@ -14,15 +14,15 @@ class ContactInfo extends React.Component {
 						<p> Odezwij się! </p>
 					</div>
 					<div>
-						<form className='form'>
+{/*						<form className='form'>
 							<input type="text" placeholder="Podaj swoje imię"/>
 							<input type="tel" placeholder="Podaj numer telefonu" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/>
 							<input type="text" placeholder="Co Cię gryzie?" id='desc'/>
 							<input type="submit" value="Wyślij"/>
 						</form>
-					</div>
+*/}						</div> 
 				</section>
-				<section id='infosectionsecond'>
+			<section id='infosectionsecond'>
 					<div>
 						<p> 123-456-789 </p>
 						<p> mail@mail.pl </p>
