@@ -87,8 +87,8 @@ const ContactForm = () => {
 	          />
 	        </div>
 
-	        <div>
-	        	<button type="submit">Wyślij</button>
+	        <div id="bookingSubmit" >
+	        	<button id="bookingSubmitButton"name="submit" type="submit">Wyślij</button>
 	        </div>
 		</form>
 	);
