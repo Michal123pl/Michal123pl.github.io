@@ -39,8 +39,8 @@ Główne funkcjonalności:
   Wymagane dane od klienta to tylko imię oraz numer telefnu. Po złożeniu rezerwacji kliett dostaje sms (Obsługiwane przez zewnętrzne API) z potwierdzeniem 
   rezerwacji i krótką wiadomością. W dniu poprzedzającym wizytę klient dostaje sms z przypomnieniem o wizycie.
     
-    W wersji 1.0 automatyczny sms z info o rezerwacji złożonej przez klienta przyjdzie również na wybrany numer zakładu i/lub mail.
-  Wersja 2.0 zakłada dodawanie wizyt do stworzonego dla strony kalendarza (punkt 5) wyświetlającego wizyty.
+    W wersji 2.0 automatyczny sms z info o rezerwacji złożonej przez klienta przyjdzie również na wybrany numer zakładu i/lub mail.
+  Wersja 3.0 zakłada dodawanie wizyt do stworzonego dla strony kalendarza (punkt 5) wyświetlającego wizyty.
  
  
  5 - Kalendarz:
