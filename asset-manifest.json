@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/barbershop/static/css/main.e1073265.css",
-    "main.js": "/barbershop/static/js/main.5b84a596.js",
+    "main.css": "/barbershop/static/css/main.6cfcc750.css",
+    "main.js": "/barbershop/static/js/main.3ce27062.js",
     "static/media/barbergirl2.jpeg": "/barbershop/static/media/barbergirl2.d13fcbe905a8a1a539a3.jpeg",
     "static/media/background_home.jpeg": "/barbershop/static/media/background_home.5d78dda50c9e07cde5ee.jpeg",
     "static/media/Jaldi-Regular.ttf": "/barbershop/static/media/Jaldi-Regular.ab18ecfb99834d259bf6.ttf",
     "static/media/Andada-Regular.otf": "/barbershop/static/media/Andada-Regular.9cee7360eb834a85676c.otf",
     "index.html": "/barbershop/index.html",
-    "main.e1073265.css.map": "/barbershop/static/css/main.e1073265.css.map",
-    "main.5b84a596.js.map": "/barbershop/static/js/main.5b84a596.js.map"
+    "main.6cfcc750.css.map": "/barbershop/static/css/main.6cfcc750.css.map",
+    "main.3ce27062.js.map": "/barbershop/static/js/main.3ce27062.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1073265.css",
-    "static/js/main.5b84a596.js"
+    "static/css/main.6cfcc750.css",
+    "static/js/main.3ce27062.js"
   ]
 }
