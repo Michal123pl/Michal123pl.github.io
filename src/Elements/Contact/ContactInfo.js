@@ -24,7 +24,7 @@ class ContactInfo extends React.Component {
 						<p> ul. ulica 10/2 </p>
 					</div>
 					<div>
-						<iframe  id="gmap_canvas" src="https://maps.google.com/maps?q=wroc%C5%82aw%20kabaczkowa%207&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+						<iframe  id="gmap_canvas" src="https://maps.google.com/maps?q=wroc%C5%82aw%20kabaczkowa%207&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
 					</div>
 				</section>	
 				<ContactForm />	

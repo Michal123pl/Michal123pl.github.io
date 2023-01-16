@@ -2,6 +2,7 @@
   "name": "od_nowa2",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001",
   "homepage": "https://michal123pl.github.io/barbershop",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

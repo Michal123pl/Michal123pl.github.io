@@ -2,33 +2,51 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../../ElementsStyles/ContactForm.css';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const ContactForm = () => {
+	
 
 	const [state, setState] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: ''
-  });
+		name: '',
+	  email: '',
+	  phone: '',
+	  subject: '',
+	  message: ''
+	});
 
 	const sendEmail = event => {
     event.preventDefault();
 
-    console.log('We will fill this up shortly.');
-    // code to trigger Sending email
+    fetch('http://localhost:8000/mail', {
+    	method: 'POST',
+    	headers: { 
+    		'Content-Type': 'application/json',
+    		'Accept': 'application/json'
+    		 },
+    	body: JSON.stringify({
+    		name: state.name,
+    		phone: state.phone,
+    		email: state.email,
+    		subject: state.subject,
+    		message: state.message
+    	})
+    }).then( response => {
+    	console.log(response)
+    	return response.json();
+    })
+    
   };
 
   const onInputChange = event => {
     const { name, value } = event.target;
     console.log(name + ' ' + value)
 
-    setState({
-      ...state,
-      [name]: value
-    });
-  };
+   	setState({
+   		...state,
+   			[name]: value
+   		})
+   };
 	
 
 
@@ -67,8 +85,8 @@ const ContactForm = () => {
 
 	        <div id="subject">
 	          <input 
-	            type="subjcet"
-	            name="text"
+	            type="text"
+	            name="subject"
 	            value={state.subject}
 	            placeholder="Tytuł"
 	            onChange={onInputChange}
@@ -79,7 +97,7 @@ const ContactForm = () => {
 	          <textarea
 	          	id="bookingTextArea"
 	          	form="booking"
-	          	maxlength="300" 
+	          	maxLength="300" 
 	            name="message"
 	            value={state.message}
 	            placeholder="Wiadomość"
