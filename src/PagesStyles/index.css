@@ -50,6 +50,7 @@ body {
   color: white;
   min-width: 400px;
   font-size: 2vw;
+  scroll-behavior: smooth;
 }
 
 code {

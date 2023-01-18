@@ -32,34 +32,45 @@ const ContactForm = () => {
     		message: state.message
     	})
     }).then( response => {
-    	console.log(response)
     	return response.json();
     })
     
   };
-
   const onInputChange = event => {
     const { name, value } = event.target;
     console.log(name + ' ' + value)
 
+   if (name == "phone")  {					//Checking is proper sign in input "phone"
+   	if (!isNaN(value)) {						//
+   		console.log("true " + value)	//
+   		setState({										//
+   		...state,											//
+   			[name]: value								//
+   		})														//
+   	}else {													//
+   		console.log("not a number")		//
+   	}}else{													//
    	setState({
    		...state,
    			[name]: value
-   		})
+   		})}
    };
 	
 
 
 	return (
-		<form id='booking' onSubmit={sendEmail}>
+		<form id='booking' onSubmit={sendEmail} autocomplete="off">
 			<label name="title" id="bookingTitle">Napisz do nas!</label>
 			<div id="name">
 	          <input 
+	          	required
 	            type="text"
 	            name="name"
 	            value={state.name}
-	            placeholder="Podaj imię"
+	            placeholder="Podaj imię *"
 	            onChange={onInputChange}
+	            maxLength="30"
+
 	          />
 	        </div>
 
@@ -68,39 +79,46 @@ const ContactForm = () => {
 	            type="tel"
 	            name="phone"
 	            value={state.phone}
-	            placeholder="Wpisz swój numer"
+	            placeholder="Wpisz swój numer: 123456789"
 	            onChange={onInputChange}
+	            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+	            maxLength="9"
+
 	          />
 	        </div>
 
 	        <div id="mail">
 	          <input 
+	          	required
 	            type="mail"
 	            name="email"
 	            value={state.email}
-	            placeholder="Wpisz swój mail"
+	            placeholder="Wpisz swój mail *"
 	            onChange={onInputChange}
 	          />
 	        </div>
 
 	        <div id="subject">
 	          <input 
+	          	required
 	            type="text"
 	            name="subject"
 	            value={state.subject}
-	            placeholder="Tytuł"
+	            placeholder="Tytuł *"
 	            onChange={onInputChange}
+	            maxLength="50"
 	          />
 	        </div>
 
 	        <div id="message">
 	          <textarea
+	          	required
 	          	id="bookingTextArea"
 	          	form="booking"
 	          	maxLength="300" 
 	            name="message"
 	            value={state.message}
-	            placeholder="Wiadomość"
+	            placeholder="Wiadomość *"
 	            onChange={onInputChange}
 	          />
 	        </div>
