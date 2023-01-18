@@ -14,9 +14,9 @@ class ContactInfo extends React.Component {
 						<p> Masz pomysł na współpracę? </p>
 						<p> Odezwij się! </p>
 					</div>
-					
+
 				</section>
-				<section id='infosectionsecond'>
+			<section id='infosectionsecond'>
 					<div>
 						<p> 123-456-789 </p>
 						<p> mail@mail.pl </p>
