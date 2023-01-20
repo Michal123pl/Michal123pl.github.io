@@ -43,6 +43,11 @@ input#desc {
 @media only screen and (max-width: 400px) {
 	.contactinfo {
 		flex-direction: column;
+		width: 100%;
+	}
+
+	#bookingTitle {
+		margin: 10vw;
 	}
 
 	#infosectionfirst {
@@ -52,6 +57,7 @@ input#desc {
 	#infosectionfirst > div:first-child {
 		letter-spacing: 1vw;
 		font-size: 4.5vw;
+		margin: 0 auto;
 	}
 
 	.form > input {

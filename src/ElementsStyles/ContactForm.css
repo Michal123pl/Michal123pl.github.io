@@ -46,12 +46,28 @@ input {
 }
 
 @media only screen and (max-width: 400px) { 
+	#bookingTitle {
+		font-size: 10vw;
+	}
+
 	form {
 		width: 100%;
 		padding: 8vw 0 ;
 	}
 
+
+	#name>input, #phone>input, #subject>input, #mail>input {
+		height: 10vw;
+		font-size: 5vw;
+	}	
+
+	#message>textarea {
+		height: 20vw;
+		font-size: 5vw;
+		margin: 2% 0 0 0 ;
+	}
+
 	#bookingSubmitButton {
-		height: 16vw;
+		height: 24svw;
 	}
 }

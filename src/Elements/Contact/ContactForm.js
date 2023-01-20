@@ -59,7 +59,7 @@ const ContactForm = () => {
 
 
 	return (
-		<form id='booking' onSubmit={sendEmail} autocomplete="off">
+		<form id='booking' onSubmit={sendEmail} autoComplete="off">
 			<label name="title" id="bookingTitle">Napisz do nas!</label>
 			<div id="name">
 	          <input 

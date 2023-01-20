@@ -58,6 +58,7 @@
 	}
 
 	.social > img {
-		width: 8vw;
+		width: 16vw;
+		margin: 3vw;
 	}
 }
