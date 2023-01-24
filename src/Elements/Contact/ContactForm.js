@@ -40,7 +40,7 @@ const ContactForm = () => {
     const { name, value } = event.target;
     console.log(name + ' ' + value)
 
-   if (name == "phone")  {					//Checking is proper sign in input "phone"
+   if (name === "phone")  {					//Checking is proper sign in input "phone"
    	if (!isNaN(value)) {						//
    		console.log("true " + value)	//
    		setState({										//
