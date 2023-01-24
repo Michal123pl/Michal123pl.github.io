@@ -8,6 +8,11 @@ form {
 	background-color: #121212;
 }
 
+#country {
+	visibility: hidden;
+	position: absolute;
+}
+
 #bookingTitle {
 	font-size: 4vw;
 }
