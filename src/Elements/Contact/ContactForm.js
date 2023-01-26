@@ -50,7 +50,7 @@ const ContactForm = () => {
 	   	}else{
 	   		console.log('not a number')
 	   	}
-   	}else{													//
+   	}else{													
 	   	setState({
 	   		...state,
 	   			[name]: value})

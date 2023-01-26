@@ -8,12 +8,12 @@ class Footer extends React.Component {
 	render() {
 		return(
 			<footer className='footer'>
-				{/*<section className='links'>
-					<div><a href='#'>Kariera</a></div>
-					<div><a href='#'>Cennik</a></div>
-					<div><a href='#'>RODO</a></div>
-					<div><a href='#'>Polityka prywatności</a></div>
-				</section>*/}
+				<section className='links'>
+					{/*<div><a href='#'>Kariera</a></div>*/}
+					<div><a href='/'>Strona główna</a></div>
+					<div><a href='/TermsOfUse'>Regulamin</a></div>
+					<div><a href='/PrivacyPolicy'>Polityka prywatności</a></div>
+				</section>
 
 				<section className='social'>
 					  <img src={require("../../Images/fbic.png")}/>

@@ -24,6 +24,7 @@ form {
 	margin: 0;
 	padding: 0;
 	font-size: 2vw;
+	background-color: #eaeaea;
 }
 
 #name, #phone, #subject, #mail, #message {
@@ -37,6 +38,7 @@ input {
 	border: 0;
 	padding: 0;
 	font-size: 1.5vw;
+	background-color: #eaeaea;
 }
 
 #bookingSubmit {

@@ -5,20 +5,22 @@ import Home from './Pages/Home.js';
 import PriceList from './Pages/PriceList.js';
 import Appointment from './Pages/Appointment.js';
 import Contact from './Pages/Contact.js';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 class App extends React.Component {
 
   render() {
     return (
-    <div>
-      <Home />
-      <PriceList />
-      <Appointment />
-      <Contact  />
+      <div>
+        <Home />
+        <PriceList />
+        <Appointment />
+        <Contact  />
     </div>
   )}
 }
 
 export default App;
+
 
 

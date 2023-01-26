@@ -47,7 +47,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: Andada;
   background:  black;
-  color: white;
+  color:#d6d6d6;
   min-width: 400px;
   font-size: 2vw;
   scroll-behavior: smooth;
