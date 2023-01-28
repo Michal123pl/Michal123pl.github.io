@@ -13,7 +13,7 @@ class Worker extends React.Component {
 				</p>
 				<div className='workername'>
 					<div>Imie</div>
-					<img className='workerimg' src={require("../../Images/barbergirl2.jpeg")}/>
+					<img className='workerimg' src={require("../../Images/barbergirl3.png")}/>
 				</div>
 			</article>
 	)}

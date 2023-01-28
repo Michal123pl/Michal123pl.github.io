@@ -22,7 +22,7 @@ const WorkerBig = ({hideWorkerBigContainer, classname}) => {
 					An article should make sense on its own and it should be possible to distribute it independently from the rest of the site.
 				</article>
 
-				<img className='WorkerBigImg' height="400" width="400" src={require("../../Images/barbergirl2.jpeg")} />
+				<img className='WorkerBigImg' height="400" width="400" src={require("../../Images/barbergirl3.png")} />
 			</section>
 		)}
 	

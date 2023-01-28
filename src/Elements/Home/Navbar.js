@@ -54,9 +54,9 @@ class Navbar extends React.Component {
 					<Link activeClass="active" smooth spy to="Pricelist">
 					Cennik
 					</Link>
-					<Link activeClass="active" smooth spy to="products">
+					{/*<Link activeClass="active" smooth spy to="products">
 					Nasze produkty
-					</Link>
+					</Link>*/}
 					<Link activeClass="active" smooth spy to="contact">
 					Kontakt
 					</Link>
